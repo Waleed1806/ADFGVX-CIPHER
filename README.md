@@ -12,7 +12,6 @@ This class represents the ADFGVX cipher encryption and decryption process. It us
 ## Runner Class:
 This class serves as the entry point for the application. It provides an interactive command-line interface for users to specify input and output directories, cipher keys, choose between encryption and decryption, and the option to quit. Overall, the application provides functionality to encrypt and decrypt text files using the ADFGVX cipher. Users can provide input and output directories, a cipher key, and choose between encryption and decryption operations. The application reads files from the input directory, processes them using the specified key, and writes the processed content to the output directory.
 
-# ADFGVX Cipher Application
 
 ## Compilation Instructions:
 
@@ -25,8 +24,9 @@ Make sure you have the following prerequisites installed on your system:
 
 git clone https://github.com/your-username/adfgvx-cipher.git
 cd adfgvx-cipher
-##Compile application
+
+### Compile application
 javac FileProcessor.java PolybiusSquare.java Cipher.java Runner.java
 
-##Run the application
+### Run the application
 java Runner
